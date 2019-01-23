@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from flask import Blueprint
 
 hello_world = Blueprint('hello_world', __name__)
