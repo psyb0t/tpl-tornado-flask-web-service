@@ -1,10 +1,9 @@
-#!/usr/bin/env python
 import argparse
 
 from tornado.wsgi import WSGIContainer
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop
-from main import app
+from app import app
 
 parser = argparse.ArgumentParser()
 
